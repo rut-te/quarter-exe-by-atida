@@ -13,5 +13,5 @@ server.use(express.json());
 server.use('/cards', cardsRouter);
 
 server.listen(PORT, () => {
-    console.log(`Listening to requests at http://localhost:${PORT}`);
+    console.log(`Listening to requests at http://localhost:${PORT}/api`);
 });
